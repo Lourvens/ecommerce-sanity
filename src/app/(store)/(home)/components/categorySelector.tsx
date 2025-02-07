@@ -34,7 +34,7 @@ export default function CategorySelector() {
             className={cn(
               "px-4 py-2 rounded-full border transition flex items-center gap-2",
               selected.includes(item)
-                ? "bg-black text-white border-black"
+                ? "bg-primary text-white border-primary"
                 : "bg-transparent text-gray-700 border-gray-300"
             )}
             onClick={() => toggleSelection(item)}
