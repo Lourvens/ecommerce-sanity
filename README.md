@@ -1,21 +1,23 @@
 # Shop
 
-This is a showcase project for my e-commerce platform built with React, Next.js, and Tailwind CSS. The platform features user authentication with Clerk, a headless CMS powered by Sanity, and a payment gateway integration with Stripe.
+**E-commerce platform built with React, Next.js, and Tailwind CSS**
+
+This project showcases a modern e-commerce platform built with the latest technologies. With a focus on user experience and performance, this platform is designed to provide a seamless shopping experience for customers.
 
 ## Features
 
-* User authentication with Clerk
-* Headless CMS powered by Sanity
-* E-commerce functionality with Stripe payment gateway integration
-* Responsive design with Tailwind CSS
-* Server-side rendering with Next.js
+* **User authentication** with Clerk
+* **Headless CMS** powered by Sanity
+* **E-commerce functionality** with Stripe payment gateway integration
+* **Responsive design** with Tailwind CSS
+* **Server-side rendering** with Next.js
 
-## Technologies Used
+## Tech Stack
 
-* Frontend: React, Next.js, Tailwind CSS
-* Backend: Sanity CMS
-* Authentication: Clerk
-* Payment Gateway: Stripe
+* **Frontend**: React, Next.js, Tailwind CSS
+* **Backend**: Sanity CMS
+* **Authentication**: Clerk
+* **Payment Gateway**: Stripe
 
 ## Getting Started
 
