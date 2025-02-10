@@ -65,8 +65,7 @@ const BasketPage = () => {
       )}
       <div>
         <Button
-          className="border-red-700 text-red-600"
-          variant={"outline"}
+          variant={"destructive"}
           onClick={() => {
             clearBasket();
           }}
