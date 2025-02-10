@@ -5,7 +5,7 @@ import CategorySelector from "./components/categorySelector";
 
 export default async function Home() {
   const products = await getAllProducts();
-  
+
   // const couponCode = await getAccessibleCouponCode()
 
   return (

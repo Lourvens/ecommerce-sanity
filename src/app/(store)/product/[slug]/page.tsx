@@ -11,6 +11,15 @@ import AddToBasketButton from "@/components/ProductView/addToBasketButton";
 
 type ParamsProps = Promise<{ slug: string }>;
 
+// export function getProductMetadata(product: { name: string; description: string; category: string }) {
+//   return {
+//     title: `${product.name} | Buy Now at the Best Price`,
+//     description: product.description || `Shop ${product.name} in the ${product.category} category. Get exclusive deals and fast shipping.`,
+//     keywords: `${product.name}, buy ${product.name}, ${product.category}, best deals, online shopping`,
+//   };
+// }
+
+
 const SingleProductPage = async ({ params }: { params: ParamsProps }) => {
   const { slug } = await params;
   const product = await getSingleProduct(slug);
