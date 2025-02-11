@@ -3,7 +3,7 @@ import React from "react";
 const SearchPage = async ({
   searchParams,
 }: {
-  searchParams: { query: string };
+  searchParams: Promise<{ query: string }>;
 }) => {
   const { query } = await searchParams;
   return <div>{JSON.stringify(query)}</div>;
